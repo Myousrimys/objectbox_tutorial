@@ -12,13 +12,15 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.3
-  #TODO 0: Add objectbox and objectbox_sync_flutter_libs dependencies
+  objectbox: ^2.0.0 
+  bash <(curl -s https://raw.githubusercontent.com/objectbox/objectbox-dart/main/install.sh) --sync
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.4
-  #TODO 0.1: Add build_runner and objectbox_generator dependencies
+build_runner: ^2.0.0
+  objectbox_generator: any
 
 flutter:
   uses-material-design: true
